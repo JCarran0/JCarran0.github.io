@@ -7,15 +7,14 @@
   <link rel="stylesheet" href="styles.css">
 
 </head>
-<html>
 
 <body>
 
   <nav>
     <ul class="navigation">
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Resume</a></li>
-      <li class="white-border"><a href="#">Contact</a></li>
+      <li><a href="views/projects/projects.html">Projects</a></li>
+      <li><a href="views/resume/resume.html">Resume</a></li>
+      <li class="white-border"><a href="javascript:spamControl()" rel="nofollow">Contact</a></li>
     </ul>
   </nav>
 
@@ -24,12 +23,16 @@
       <page-header>DEVELOPER.</page-header>
     </div>
     <div class="row">
-      <div class="main-link">Resume</div>
-      <div class="main-link">Contact</div>
+      <div class="main-link"><a href="views/resume/resume.html">Resume</a></div>
+      <div class="main-link"><a href="javascript:spamControl()" rel="nofollow">Contact</a></div>
     </div>
   </div>
 </body>
 
-</html>
+<script>
+  function spamControl(){
+    window.location = `mailto:` + 'jared' + 'car.rano' + '@' + 'gmail' + '.com';
+  }
+</script>
 
 </html>

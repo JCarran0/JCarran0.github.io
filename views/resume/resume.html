@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jared Carrano - Curriculum Vitae</title>
+
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="The Curriculum Vitae of Jared Carrano." />
+  <meta charset="UTF-8">
+
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body id="top">
+  <div id="cv" class="instaFade">
+    <div class="mainDetails">
+      <div id="headshot" class="quickFade">
+        <img src="../../images/monogram.png" alt="headshot photo" />
+      </div>
+
+      <div id="name">
+        <h1 class="quickFade delayTwo">Jared Carrano</h1>
+        <h2 class="quickFade delayThree">Lead Full-stack Developer</h2>
+      </div>
+
+      <div id="contactDetails" class="quickFade delayFour">
+        <ul>
+          <li>e: &nbsp;<a href="getEmail()" target="_blank"><span id="email"><!--placeholder--></span></a></li>
+          <li>w: &nbsp;<a href="http://jcarran0.github.io">http://jcarran0.github.io</a></li>
+          <li>m: &nbsp;<span id="phone"><!--placeholder--></span></li>
+          <li>l: &nbsp;<a href="http://www.linkedin.com/in/jaredcarrano">linkedin.com/in/jaredcarrano</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div id="mainArea" class="quickFade delayFive">
+      <section>
+        <article>
+          <div class="sectionTitle">
+            <h1>Personal Profile</h1>
+          </div>
+
+          <div class="sectionContent">
+            <p>Mid-level javascript developer and technical team lead with 3+ years development experience. For the past 2 years I've been helping New Visions for Public Schools get a student information platform off the ground. Being able to put my technical skills and interests to use in the service of improving many of New York City's most struggling and under resourced high schools has been my great pleasure.</p>
+          </div>
+        </article>
+        <div class="clear"></div>
+      </section>
+
+
+      <section>
+        <div class="sectionTitle">
+          <h1>Work Experience</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h2>New Visions for Public Schools</h2>
+            <p class="subDetails">April 2016 - Present, Lead Full-stack developer</p>
+            <p>Responsible for overseeing New Vision's Full-stack development team in the building of a data management platform and private student data API.  This includes the migration of a number of existing tools from Google Apps Script into our new MHAN stack infrastructure (MongoDB, Hapi.js, AngularJS, Node.js).</p>
+          </article>
+
+          <article>
+            <h2>New Visions for Public Schools</h2>
+            <p class="subDetails">Janruary 2016 - March 2016, Full-stack developer</p>
+            <p>Developer of applications and tools for use in the support of 100+ New York City public high schools.  Our current stack includes Node.js, MongoDB, AngularJS and Hapi.js.  Also responsible for maintaining a number of applications built in Google Apps Script, and for transitioning these tools to our full-stack infrastructure.</p>
+          </article>
+
+          <article>
+            <h2>New Visions for Public Schools</h2>
+            <p class="subDetails">August 2013 – December 2015, School Tool and Systems Developer</p>
+            <p>Supporting a network of 80 New York City public high schools in the adoption and management of a Google Apps for Education domain.  Collaborate with schools as design partners in the development of cloud-based tools and systems that meet individualized school needs.</p>
+          </article>
+        </div>
+        <div class="clear"></div>
+      </section>
+
+
+      <section>
+        <div class="sectionTitle">
+          <h1>Key Skills &amp; Technologies</h1>
+        </div>
+
+        <div class="sectionContent">
+          <ul class="keySkills">
+            <li>Node.js</li>
+            <li>Angular/AngularJS</li>
+            <li>MongoDB/NoSQL</li>
+            <li>Hapi</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Firebase</li>
+            <li>Unit testing</li>
+            <li>Google Apps Script</li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </section>
+
+
+      <section>
+        <div class="sectionTitle">
+          <h1>Education</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h2>The New School</h2>
+            <p class="subDetails">M.S. Urban Policy Analysis</p>
+            <p>2010-2012</p>
+          </article>
+
+          <article>
+            <h2>University of Vermont</h2>
+            <p class="subDetails">B.A. geology, anthropology minor</p>
+            <p>2001-2005</p>
+          </article>
+        </div>
+        <div class="clear"></div>
+      </section>
+
+    </div>
+  </div>
+  <script type="text/javascript">
+    (function () {
+      // Trying to avoid spam
+      document.getElementById("email").innerHTML = getEmail();
+    })();
+
+    (function () {
+      // Trying to avoid spam
+      document.getElementById("phone").innerHTML = getPhone();
+    })();
+
+    function getEmail(){
+      var name = 'jared.carrano';
+      var mail = 'gmail.com'
+      return `${name}@${mail}`;
+    }
+
+    function getPhone(){
+      var pre = '(203)';
+      var post = ' 494-0232';
+      return `${pre}${post}`;
+    }
+  </script>
+</body>
+
+</html>
