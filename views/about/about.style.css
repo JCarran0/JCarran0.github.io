@@ -2,6 +2,12 @@ body {
   background: #3d3b3b;
 }
 
+nav {
+  height: auto;
+  padding: 8px;
+  background: #3d3b3b;
+}
+
 .container {
   margin: 0 15%;
   background: white;
