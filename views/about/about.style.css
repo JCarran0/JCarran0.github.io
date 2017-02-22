@@ -47,6 +47,7 @@ p, .section a {
 @media all and (max-width: 601px) {
   .container {
     margin: 0;
+
   }
 
   p {
@@ -55,10 +56,6 @@ p, .section a {
 
   .section a {
     font-size: 1em;
-  }
-
-  .container {
-    margin: 0;
   }
 
   .section {

@@ -18,7 +18,7 @@ nav div.nav-items {
   border: 1px solid white;
 }
 
-page-header {
+.page-header {
   font-weight: 700;
   font-size: 5em;
   color: #fff;
@@ -49,6 +49,7 @@ page-header {
   justify-content: left;
   align-items: left;
   flex-direction: column;
+  left: 0px;
 }
 
 .row{
