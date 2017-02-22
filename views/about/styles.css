@@ -21,12 +21,6 @@ body {
   color: #3d3b3b;
 }
 
-.sectionContent h2 {
-  font-size: 1.5em;
-  margin-bottom: -2px;
-}
-
-
 p, .section a {
   font-size: 1em;
   line-height: 1.4em;
@@ -41,4 +35,26 @@ p, .section a {
 
 .section a:hover {
   color: #4cb8f7;
+}
+
+@media all and (max-width: 601px) {
+  .container {
+    margin: 0;
+  }
+
+  p {
+    font-size: 2em;
+  }
+
+  .section a {
+    font-size: 1em;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .section {
+    padding: 1em 1em;
+  }
 }
