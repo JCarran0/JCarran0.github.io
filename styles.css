@@ -98,12 +98,14 @@ page-header {
     flex-flow: column wrap;
     padding: 0;
   }
+
   .navigation a {
     text-align: center;
     padding: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
+
   .navigation li:last-of-type a {
     border-bottom: none;
   }
@@ -126,7 +128,7 @@ page-header {
     display: none;
   }
 
-  page-header {
+  .page-header {
     font-weight: 700;
     font-size: 3em;
     margin: 0 auto;
