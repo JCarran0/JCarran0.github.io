@@ -67,6 +67,7 @@ page-header {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
   justify-content: flex-end;
 }
 
@@ -111,7 +112,23 @@ page-header {
     border: inherit;
   }
 
+  .row, .container {
+    width: 100%;
+  }
+
   .main {
+    position: absolute;
+    bottom: 2em;
+    margin: 0;
+  }
+
+  .main-link {
     display: none;
+  }
+
+  page-header {
+    font-weight: 700;
+    font-size: 3em;
+    margin: 0 auto;
   }
 }
