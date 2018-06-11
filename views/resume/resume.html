@@ -54,7 +54,10 @@
           </div>
 
           <div class="sectionContent">
-            <p>Mid-level javascript developer and technical team lead with 3+ years development experience. For the past year and a half I've been helping New Visions for Public Schools get a student information platform off the ground. Being able to put my technical skills and interests to use in the service of improving many of New York City's most struggling and under resourced high schools has been my great pleasure.</p>
+            <p>
+              A strong technical leader with good understanding of product development and strategy. Able to
+              work effectively with engineering and product teams. 
+            </p>
           </div>
         </article>
         <div class="clear"></div>
@@ -70,13 +73,39 @@
           <article>
             <h2>New Visions for Public Schools</h2>
             <p class="subDetails">April 2016 - Present, Lead Full Stack Developer</p>
-            <p>Responsible for overseeing New Vision's Full stack development team in the building of a data management platform and private student data API.  This includes the migration of a number of existing tools from Google Apps Script into our new MHAN stack infrastructure (MongoDB, Hapi.js, AngularJS, Node.js).</p>
+            <p>
+              * Oversaw the product engineering of a student management system that was succesfully rolled
+                to ~125 NYC high schools in September 2017
+              * Led the engineering team's technical strategy and roadmap 
+                  * Succesfully balanced a major migration from AngularJS to Angular with the on-time 
+                    delivery of a major new product redesign and new features
+              * Led release engineering and continuous integration
+                * Made progress towards continuous deployment (from 1 deploy every 2 weeks to 3+ deployments
+                  per week)
+              * Effectively collaborated with Data Team build, monitor, and maintain a nightly ETL 
+                between databases/systems
+              * Managed all schema changes and data migrations
+                * Established a process for rolling or "soft" data migrations which enabled us to achieve
+                  zero downtime during schema changes
+              * Worked closely with Product Team to ensure that features were reasonably scoped to deadlines
+                and priorities were clear in terms of "must haves" vs "should haves" vs "nice to haves"
+              * Responsible for aligning engineering/operations goals with organization wide strategy
+              * Held regular meetings to establish and reinforce team norms around coding style, standards
+                and documentation
+              * Supervised and conducted architecture and code reviews
+              * Acted as primary backend developer
+              * Recruited, developed and reviewed engineering staff of up to 7 people
+            </p>
           </article>
 
           <article>
             <h2>New Visions for Public Schools</h2>
             <p class="subDetails">Janruary 2016 - March 2016, Full Stack Developer</p>
-            <p>Developer of applications and tools for use in the support of 100+ New York City public high schools. Also responsible for maintaining a number of applications built in Google Apps Script, and for transitioning these tools to our full stack infrastructure.</p>
+            <p>
+              Developer of applications and tools for use in the support of 100+ New York City 
+              public high schools. Also responsible for maintaining a number of applications built 
+              in Google Apps Script, and for transitioning these tools to our full stack infrastructure.
+            </p>
           </article>
 
           <article>
@@ -97,7 +126,7 @@
         <div class="sectionContent">
           <ul class="keySkills">
             <li>Node.js</li>
-            <li>Angular</li>
+            <li>AngularJS / Angular</li>
             <li>MongoDB/NoSQL</li>
             <li>Hapi</li>
             <li>HTML5</li>
@@ -138,10 +167,6 @@
     (function () {
       // Trying to avoid spam
       document.getElementById("email").innerHTML = getEmail();
-    })();
-
-    (function () {
-      // Trying to avoid spam
       document.getElementById("phone").innerHTML = getPhone();
     })();
 
@@ -153,8 +178,8 @@
 
     function getPhone(){
       var pre = '(203)';
-      var post = ' 494-0232';
-      return `${pre}${post}`;
+      var post = '494-0232';
+      return `${pre} ${post}`;
     }
   </script>
 </body>
